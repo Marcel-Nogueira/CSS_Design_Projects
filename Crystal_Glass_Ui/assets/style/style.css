@@ -1,0 +1,189 @@
+@import url("https://googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: 1 - Imagem de fundo*/
+  /* background: url(./sources/images/bg.jpg); */
+
+  /* background: 2 - GOLD */
+  background: gold; 
+
+  /* background: 3 - GRADIENTE AZUL */
+  /* background: #00d2ff;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: 4 */
+  /*background-color: #69350f;
+  background-image: linear-gradient(147deg, #69350f 34%, #271406 95%); */
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px;
+}
+.container {
+  position: relative;
+  width: calc(100% - 100px);
+  min-height: calc(100vh - 280px);
+  min-height: 300px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+header {
+  position: absolute;
+  top: -45px;
+  right: 20px;
+  left: 20px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+header .logo {
+  color: #8a2435;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #8a2435;
+  padding: 8px 15px;
+  border-radius: 25px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  transform: translateX(-100px);
+  max-width: 700px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 40px;
+  padding-left: 110px;
+  margin-top: 50px;
+}
+
+.content h2 {
+  font-size: 3em;
+  color: #8a2435;
+}
+
+.content p {
+  font-size: 1.2em;
+  color: #8a2435;
+}
+
+.content a {
+  display: inline-block;
+  padding: 15px;
+  background: #ffffff;
+  color: #8a2435;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.imageBox img {
+  max-width: 400px;
+  animation: animate 5s linear infinite;
+  /*box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); */
+  /*border-radius: 50% ; */
+}
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+}
+
+.socialButton {
+  position: absolute;
+  right: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socialButton li {
+  list-style: none;
+}
+
+.socialButton li a {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 5px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.socialButton li a img {
+  transform: scale(0.6);
+  transition: 0.5s;
+}
+
+.socialButton li a:hover img {
+  transform: scale(0.6) rotate(360deg);
+}
+
+.copyrightText {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  color: #8a2435;
+}
