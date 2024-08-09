@@ -1,1 +1,1 @@
-Repositorio de Projetos HTML e CSS
+Repositorio de Projetos de Design HTML e CSS
