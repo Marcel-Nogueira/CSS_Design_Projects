@@ -1,4 +1,4 @@
-### Repositorio de Projetos de Design HTML e CSS
+### Repositorio com Projetos de Design HTML e CSS
 
 ##### My Social Media
 
