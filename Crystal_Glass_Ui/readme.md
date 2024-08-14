@@ -1,10 +1,10 @@
 ### Project Site Doces ou Truques with Crustal Glass Ui 
 
 #### Video Preview
-<p> 
 
-<video width="400px" src="https://github.com/Marcel-Nogueira/CSS_Design_Projects/tree/main/Crystal_Glass_Ui/assets/video/video_preview.mp4"</video>
-</p>
+
+https://github.com/user-attachments/assets/3e57fd35-1d9d-4bf0-b711-56dc937e8eb4
+
 
 #### Description
 
