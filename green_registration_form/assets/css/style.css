@@ -32,7 +32,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: 120px;
-
+    
 }
 
 .container {
@@ -46,3 +46,19 @@ section {
     background-color: var(--white-bgcolor);
     box-shadow: 13px 13px 5px 0px var(--shadow-color);
 }
+
+.container .close_button {
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: 17px;
+    padding-left: 30px;
+}
+
+.container .logo_image {
+    padding-left: 10px;
+    
+}
+
+/* FORM CONTENT */
+
