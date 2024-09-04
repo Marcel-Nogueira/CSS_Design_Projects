@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     min-height: 100vh;
     background-color: var(--green-bgcolor);
     
@@ -36,6 +37,8 @@ body {
 section {
     display: flex;
     justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
     width: 450px;
     height: 550px;
     border-radius: 20px;
@@ -51,16 +54,19 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     padding-top: 20px;
+    padding-left: 15px;
     
 }
 
 .container .close_button {
     display: flex;
     justify-content: flex-start;
+    position: relative;
     width: 20px;
     height: 17px;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-bottom: 80px;
 }
 
@@ -70,4 +76,38 @@ section {
 
 
 /* FORM CONTENT */
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 310px;
+    height: 400px;
+}
+
+.name_LastName
+ {
+    display: flex;
+    width: 310px;
+    height: 20px;
+
+}
+
+.name_LastName p {
+    flex: 1;
+
+}
+
+.text_Box input {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 250px;
+    height: 25px;
+    outline: none;
+    text-decoration: none;
+    border-bottom: 1px solid var(--blackfont-color);
+    margin-bottom: 20px;
+}
 
