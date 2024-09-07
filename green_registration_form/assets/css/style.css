@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    width: 100%;
     min-height: 100vh;
     background-color: var(--green-bgcolor);
     
@@ -34,80 +34,55 @@ body {
 
 /* CONTENT */
 
-section {
+.container {
     display: flex;
     justify-content: center;
-    position: relative;
-    flex-wrap: wrap;
-    width: 450px;
-    height: 550px;
+    width: 100%;
+    max-width: 430px;
     border-radius: 20px;
+    padding: 20px;
+    margin: 15px;
     box-shadow: 13px 13px 5px 0px var(--shadow-color);
     background-color: var(--white-bgcolor);
+    flex-wrap: wrap;
     
 }
     
-    
-.container {
-    
-    width: 310px;
+
+.header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding-top: 20px;
-    padding-left: 15px;
-    
+    width: 100%;
+    justify-content: space-around;
 }
 
-.container .close_button {
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    width: 20px;
-    height: 17px;
-    padding-left: 5px;
-    margin-bottom: 80px;
+.logo_image img {
+    width: 308px;
+    height: 105px;
+    margin-left: 30px;
+}
+    
+
+
+.close_button {
+    width: 5px;
 }
 
 .close_button img {
-    margin-left: 30px;
+    width: 20px;
+    height: 20px;
 }
+
 
 
 /* FORM CONTENT */
 
 form {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    position: relative;
-    width: 310px;
     height: 400px;
-}
-
-.name_LastName
- {
-    display: flex;
-    width: 310px;
-    height: 20px;
+    width: 285px;
+    background-color: var(--green-bgcolor);
 
 }
 
-.name_LastName p {
-    flex: 1;
-
-}
-
-.text_Box input {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 250px;
-    height: 25px;
-    outline: none;
-    text-decoration: none;
-    border-bottom: 1px solid var(--blackfont-color);
-    margin-bottom: 20px;
-}
 

@@ -14,7 +14,7 @@ body {
 section {
     display: flex;
     position: relative;
-    bottom: 200px;
+    padding-bottom: 250px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
