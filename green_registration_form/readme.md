@@ -7,8 +7,8 @@
 
 
 ## My Social Media
-
-https://www.linkedin.com/in/marcel-nogueira1/
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcel-nogueira1/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nogueira.devmasters@gmail.com)
 
 Today is an incredible day to start a new project
 
