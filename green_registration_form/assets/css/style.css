@@ -40,6 +40,7 @@ body {
     width: 100%;
     max-width: 430px;
     border-radius: 20px;
+    height: 650px;
     padding: 20px;
     margin: 15px;
     box-shadow: 13px 13px 5px 0px var(--shadow-color);
@@ -79,6 +80,7 @@ body {
 form {
     height: 400px;
     width: 285px;
+    
 
 }
 
@@ -92,11 +94,34 @@ form {
 
 .text_inputs input {
     padding: 2px 5px;
-    max-width: 140px;
-    /* border-bottom: 1px solid #000; */
-    outline: none;
+    width: 140px;
+    border: none;
+    border-bottom: 1px solid var(--blackfont-color);
+    margin-top: 10px;
 
 }
 
+.title {
+    display: inline-block;
+    margin-top: 10px;
+}
 
+.text_inputs .text_box {
+    display: block;
+    width: 100%;
+}
+
+
+.button_submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--green-bgcolor);
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+
+}
 
