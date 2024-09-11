@@ -77,12 +77,26 @@ body {
 /* FORM CONTENT */
 
 form {
-    display: flex;
-    justify-content: center;
     height: 400px;
     width: 285px;
-    background-color: var(--green-bgcolor);
 
 }
+
+
+.name_LastName
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.text_inputs input {
+    padding: 2px 5px;
+    max-width: 140px;
+    /* border-bottom: 1px solid #000; */
+    outline: none;
+
+}
+
 
 
