@@ -55,6 +55,7 @@
         width: 80px;
         height: 80px;
         background-color: var(--secondary-Color);
+        border-radius: 40px;
     }
 
     .menu {
@@ -130,7 +131,43 @@
             display: inline-block;
             background-color: rgba(0, 0, 0, 0.8);
         }
-        
+        .banner .slidearea {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            color: var(--primaryFont-color);
+
+        }
+        .banner h1 {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        .banner h1 span {
+            color: var(--secondary-Color);
+            font-size: 50px;
+        }
+        .banner h2 {
+            text-transform: uppercase;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .banner a {
+            display: block;
+            background-color: var(--secondary-Color);
+            color: var(--primaryFont-color);
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 10px 30px;
+            margin-top: 20px;
+            border-radius: 20px;
+
+
+        }
     /* ---------------- */
 
 
