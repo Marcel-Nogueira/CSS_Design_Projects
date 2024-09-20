@@ -19,6 +19,7 @@
     --primary-Color: #000; 
     --primaryFont-color: #FFF;
     --secondary-Color: #b28756;
+    --hover-Color: #CCC;
 
 }
 
@@ -44,6 +45,9 @@ header {
 }
 
 .logo_img {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
     width: 80px;
     height: 80px;
     background-color: var(--secondary-Color);
@@ -81,6 +85,7 @@ header {
 .menu li a:hover,
 .menu .active a {
     border-bottom: 5px solid var(--secondary-Color);
+    color: var(--hover-Color);
 }
 
 /* MAIN CONTENT */
