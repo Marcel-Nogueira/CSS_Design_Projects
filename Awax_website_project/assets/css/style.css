@@ -23,9 +23,14 @@
         --secondary-Color: #b28756;
         --tertiary-Color: #333;
         --hover-Color: #CCC;
+        --backgroundLight-Color: #F7F7F7;
 
     }
 /*------------------------------ */
+
+    body {
+        overflow-x: hidden;
+    }
 
 /* HEADER CONTENT */
 
@@ -196,10 +201,62 @@
     /* ---------------- */
 
 
+    /* SECTION AFTER BANNER */
+
+    .default {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .default .section_title ,
+    .default .section_description {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+
+    }
+
+    .default .section_title {
+        font-size: 20px;
+    
+    }
+
+    .default .section_description {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        color: var(--hover-Color);
+    }
+
+    .default .section_body {
+        max-width: 1140px;
+        margin: auto;
+       
+        min-height: 100px;
+        background: var(--hover-Color);
+    }
 
 
+    /* Section light background color  */
 
+    .default.light {
+        background-color: var(--backgroundLight-Color);
+    }
 
+    .default.light .section_title {
+        color: var(--text-Color);
+    }
+
+    
+    /* section dark blackground color  */
+
+    .default.dark {
+        background-color: var(--primary-Color);
+    }
+
+    .default.dark .section_title {
+        color: var(--primaryFont-color);
+    }
 
 
 
