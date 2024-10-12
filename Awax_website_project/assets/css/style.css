@@ -102,8 +102,22 @@
 
 
 /* MAIN CONTENT */
+    /* BUTTON */
+
+    .button {
+        display: inline-block;
+        background-color: var(--secondary-Color);
+        color: var(--primaryFont-color);
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 30px;
+        margin-top: 20px;
+        border-radius: 20px;
 
 
+    }
     /* BANNER */
 
         .banner {
@@ -159,20 +173,7 @@
             font-size: 18px;
             margin-top: 20px;
         }
-        .banner a {
-            display: block;
-            background-color: var(--secondary-Color);
-            color: var(--primaryFont-color);
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
-            text-decoration: none;
-            padding: 10px 30px;
-            margin-top: 20px;
-            border-radius: 20px;
-
-
-        }
+        
 
         /* SLIDERS POINTERS */
         .banner .sliders_pointers {
@@ -232,8 +233,6 @@
         max-width: 1140px;
         margin: auto;
        
-        min-height: 100px;
-        background: var(--hover-Color);
     }
 
 
@@ -243,7 +242,8 @@
         background-color: var(--backgroundLight-Color);
     }
 
-    .default.light .section_title {
+    .default.light .section_title,
+    .default.light .section_body {
         color: var(--text-Color);
     }
 
@@ -254,7 +254,8 @@
         background-color: var(--primary-Color);
     }
 
-    .default.dark .section_title {
+    .default.dark .section_title,
+    .default.dark .section_body {
         color: var(--primaryFont-color);
     }
 
@@ -265,8 +266,35 @@
 /*------------------------------ */
 
 
+/* SPECIFIC ITEMS CSS */
+
+.section_about_us {
+    display: flex;
+}
+
+.section_about_us_left {
+    flex: 1;
+}
+
+.section_about_us_left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section_about_us_right {
+    width: 520px;
+    text-align: center;
+
+}
+
+.section_about_us_right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px var(--tertiary-Color);
+}
 
 
+
+/*------------------------------ */
 
 
 /* FOOTER CONTENT */
