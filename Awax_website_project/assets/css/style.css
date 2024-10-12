@@ -20,10 +20,12 @@
     :root {
         --primary-Color: #000;
         --primaryFont-color: #FFF;
+        --secondaryFont-Color: #999;
         --secondary-Color: #b28756;
         --tertiary-Color: #333;
         --hover-Color: #CCC;
         --backgroundLight-Color: #F7F7F7;
+
 
     }
 /*------------------------------ */
@@ -266,33 +268,66 @@
 /*------------------------------ */
 
 
-/* SPECIFIC ITEMS CSS */
-
-.section_about_us {
-    display: flex;
-}
-
-.section_about_us_left {
-    flex: 1;
-}
-
-.section_about_us_left p {
-    font-size: 14px;
-    line-height: 25px;
-}
-
-.section_about_us_right {
-    width: 520px;
-    text-align: center;
-
-}
-
-.section_about_us_right img {
-    width: 480px;
-    box-shadow: 0px 5px 10px var(--tertiary-Color);
-}
+/* SECTIONS ITEMS  */
 
 
+/* SECTION ABOUT US */
+
+    .section_about_us {
+        display: flex;
+    }
+
+    .section_about_us_left {
+        flex: 1;
+    }
+
+    .section_about_us_left p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .section_about_us_right {
+        width: 520px;
+        text-align: center;
+
+    }
+
+    .section_about_us_right img {
+        width: 480px;
+        box-shadow: 0px 5px 10px var(--tertiary-Color);
+    }
+
+/*------------------------------ */
+
+/* SECTION SERVICES  */
+
+    .section_services {
+        display: flex;
+    }
+    
+    .section_service {
+        flex: 1;
+        text-align: center;
+        border-right: 1px solid var(--tertiary-Color);
+        padding: 15px;
+
+    }
+
+    .section_service:first-child {
+        border-left: 1px solid var(--tertiary-Color);
+    }
+
+    .section_service h4 {
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .section_service p {
+        margin-top: 10px;
+        font-size: 13px;
+        color: var(--secondaryFont-Color);
+    }
 
 /*------------------------------ */
 
