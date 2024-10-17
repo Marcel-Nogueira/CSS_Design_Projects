@@ -19,11 +19,13 @@
 
     :root {
         --primary-Color: #000;
+        --secondary-Color: #b28756;
         --primaryFont-color: #FFF;
         --secondaryFont-Color: #999;
-        --secondary-Color: #b28756;
         --tertiary-Color: #333;
         --hover-Color: #CCC;
+        --filter-BgColor: #EEE;
+        --filter-FontColor: #555;
         --backgroundLight-Color: #F7F7F7;
 
 
@@ -331,8 +333,49 @@
 
 /*------------------------------ */
 
+/* SECTION PROJECTS */
 
-/* FOOTER CONTENT */
+.section_projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
+.section_projects_filters {
+    border: 1px solid var(--hover-Color);
+    background-color: var(--filter-BgColor);
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+
+}
+
+
+.section_projects_filters ul,
+.section_projects_filters li {
+    list-style: none;
+}
+
+
+.section_projects_filters li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid var(--hover-Color);
+    color: var(--filter-FontColor);
+    border-bottom: 3px solid var(--filter-BgColor);
+}
+
+.section_projects_filters li:hover,
+.section_projects_filters li.active {
+    border-bottom: 3px solid var(--secondary-Color);
+}
+
+.section_projects_filters li:first-child {
+    border-left: 0;
+}
 
 /*------------------------------ */
