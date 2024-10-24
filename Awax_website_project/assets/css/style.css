@@ -441,3 +441,22 @@ header {
 
     }
 /*------------------------------ */
+
+
+/* SECTION OUR TEAM */
+
+    .bg_team {
+        background-image: url('../img/bg.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+    }
+
+    .section_team_area {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 50px 0px;
+    }
+
+/*------------------------------ */
+
+
